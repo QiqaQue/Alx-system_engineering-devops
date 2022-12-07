@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -not -name ".*" -empty -printf "%f\n"
+find .  -name ".*" -empty -printf "%f\n"
