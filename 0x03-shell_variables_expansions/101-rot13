@@ -1,2 +1,4 @@
-#!/bin/bash
-echo 'ALX Africa' | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+#!/usr/bin/env bash
+text=$1
+encoded_text=$(echo $text | tr 'A-Za-z' 'N-ZA-Mn-za-m')
+echo $encoded_text
